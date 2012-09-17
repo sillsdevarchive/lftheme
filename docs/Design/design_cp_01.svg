@@ -19,7 +19,30 @@
   <defs
      id="defs2987">
     <linearGradient
-       id="linearGradient4009">
+       id="linearGradient4176">
+      <stop
+         id="stop4178"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:0" />
+      <stop
+         id="stop4180"
+         offset="1"
+         style="stop-color:#555555;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="lgDarkButton">
+       id="lgDarkButton">
+      <stop
+         style="stop-color:#102630;stop-opacity:1;"
+         offset="0"
+         id="stop4156" />
+      <stop
+         style="stop-color:#285f78;stop-opacity:1;"
+         offset="1"
+         id="stop4158" />
+    </linearGradient>
+    <linearGradient
+       id="lgGreyButton">
       <stop
          style="stop-color:#e2e2e4;stop-opacity:1;"
          offset="0"
@@ -30,7 +53,7 @@
          style="stop-color:#ffffff;stop-opacity:1;" />
     </linearGradient>
     <linearGradient
-       id="linearGradient3763">
+       id="lgHeaderBar">
       <stop
          id="stop3771"
          offset="0"
@@ -42,7 +65,7 @@
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient3763"
+       xlink:href="#lgHeaderBar"
        id="linearGradient3769"
        x1="555.28589"
        y1="73.818314"
@@ -52,7 +75,7 @@
        gradientTransform="matrix(1.0000134,0,0,0.97647214,-30.083571,-19.50423)" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient4009"
+       xlink:href="#lgGreyButton"
        id="linearGradient4007"
        x1="600.5"
        y1="344.5"
@@ -62,7 +85,7 @@
        gradientTransform="translate(-86.577164,-44.547727)" />
     <radialGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5391"
+       xlink:href="#lgShadow"
        id="radialGradient5397"
        cx="123.56691"
        cy="213.62828"
@@ -72,7 +95,7 @@
        gradientTransform="matrix(0.97847726,-0.01794624,0.00274324,0.14956931,2.0734631,183.89361)"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
-       id="linearGradient5391">
+       id="lgShadow">
       <stop
          style="stop-color:#bababa;stop-opacity:1;"
          offset="0"
@@ -94,7 +117,7 @@
     </clipPath>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5328"
+       xlink:href="#lgLogoHilight"
        id="linearGradient5385"
        gradientUnits="userSpaceOnUse"
        x1="175.59911"
@@ -102,7 +125,7 @@
        x2="178.96349"
        y2="165.95216" />
     <linearGradient
-       id="linearGradient5328">
+       id="lgLogoHilight">
       <stop
          style="stop-color:#ffffff;stop-opacity:0;"
          offset="0"
@@ -118,7 +141,7 @@
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5328-2"
+       xlink:href="#lgLogoHL"
        id="linearGradient5387"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(-20.524289,-13.70005)"
@@ -127,7 +150,7 @@
        x2="180.71349"
        y2="165.57716" />
     <linearGradient
-       id="linearGradient5328-2">
+       id="lgLogoHL">
       <stop
          style="stop-color:#ffffff;stop-opacity:0;"
          offset="0"
@@ -149,7 +172,7 @@
        gradientTransform="translate(-20.524289,-13.70005)"
        gradientUnits="userSpaceOnUse"
        id="linearGradient5435"
-       xlink:href="#linearGradient5328-2"
+       xlink:href="#lgLogoHL"
        inkscape:collect="always" />
     <linearGradient
        id="linearGradient6663-7">
@@ -173,7 +196,7 @@
          sodipodi:nodetypes="sssss" />
     </clipPath>
     <linearGradient
-       id="linearGradient5328-1">
+       id="lgLogoHilight-1">
       <stop
          style="stop-color:#ffffff;stop-opacity:0;"
          offset="0"
@@ -188,7 +211,7 @@
          id="stop5332-0" />
     </linearGradient>
     <linearGradient
-       id="linearGradient5328-2-1">
+       id="lgLogoHL-1">
       <stop
          style="stop-color:#ffffff;stop-opacity:0;"
          offset="0"
@@ -203,7 +226,7 @@
          id="stop5332-5-4" />
     </linearGradient>
     <linearGradient
-       id="linearGradient5391-7">
+       id="lgShadow-7">
       <stop
          style="stop-color:#959595;stop-opacity:0.65765768;"
          offset="0"
@@ -226,7 +249,7 @@
        r="65.097046" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5328-1"
+       xlink:href="#lgLogoHilight-1"
        id="linearGradient7056"
        gradientUnits="userSpaceOnUse"
        x1="175.59911"
@@ -235,7 +258,7 @@
        y2="165.95216" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5328-2-1"
+       xlink:href="#lgLogoHL-1"
        id="linearGradient7058"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(-20.524289,-13.70005)"
@@ -245,7 +268,7 @@
        y2="165.57716" />
     <radialGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5391-7"
+       xlink:href="#lgShadow-7"
        id="radialGradient7060"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.97847726,-0.01794624,0.00274324,0.14956931,2.0734631,183.89361)"
@@ -267,7 +290,7 @@
        r="65.097046" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5328-1"
+       xlink:href="#lgLogoHilight-1"
        id="linearGradient7087"
        gradientUnits="userSpaceOnUse"
        x1="175.59911"
@@ -276,7 +299,7 @@
        y2="165.95216" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5328-2-1"
+       xlink:href="#lgLogoHL-1"
        id="linearGradient7089"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(-20.524289,-13.70005)"
@@ -286,7 +309,7 @@
        y2="165.57716" />
     <radialGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5391-7"
+       xlink:href="#lgShadow-7"
        id="radialGradient7091"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.97847726,-0.01794624,0.00274324,0.14956931,2.0734631,183.89361)"
@@ -308,7 +331,7 @@
        r="65.097046" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5328-1"
+       xlink:href="#lgLogoHilight-1"
        id="linearGradient7112"
        gradientUnits="userSpaceOnUse"
        x1="175.59911"
@@ -317,7 +340,7 @@
        y2="165.95216" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5328-2-1"
+       xlink:href="#lgLogoHL-1"
        id="linearGradient7114"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(-20.524289,-13.70005)"
@@ -327,7 +350,7 @@
        y2="165.57716" />
     <radialGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5391-7"
+       xlink:href="#lgShadow-7"
        id="radialGradient7116"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.97847726,-0.01794624,0.00274324,0.14956931,2.0734631,183.89361)"
@@ -349,7 +372,7 @@
        r="65.097046" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5328-1"
+       xlink:href="#lgLogoHilight-1"
        id="linearGradient7136"
        gradientUnits="userSpaceOnUse"
        x1="175.59911"
@@ -358,7 +381,7 @@
        y2="165.95216" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5328-2-1"
+       xlink:href="#lgLogoHL-1"
        id="linearGradient7138"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(-20.524289,-13.70005)"
@@ -368,7 +391,7 @@
        y2="165.57716" />
     <radialGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5391-7"
+       xlink:href="#lgShadow-7"
        id="radialGradient7140"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.97847726,-0.01794624,0.00274324,0.14956931,2.0734631,183.89361)"
@@ -390,7 +413,7 @@
        r="65.097046" />
     <radialGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5391-7"
+       xlink:href="#lgShadow-7"
        id="radialGradient7159"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.97847726,-0.01794624,0.00274324,0.14956931,2.0734631,183.89361)"
@@ -412,7 +435,7 @@
        r="65.097046" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5328-1"
+       xlink:href="#lgLogoHilight-1"
        id="linearGradient3281"
        gradientUnits="userSpaceOnUse"
        x1="175.59911"
@@ -421,7 +444,7 @@
        y2="165.95216" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5328-2-1"
+       xlink:href="#lgLogoHL-1"
        id="linearGradient3283"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(-20.524289,-13.70005)"
@@ -431,7 +454,7 @@
        y2="165.57716" />
     <radialGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5391-7"
+       xlink:href="#lgShadow-7"
        id="radialGradient3285"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.97847726,-0.01794624,0.00274324,0.14956931,2.0734631,183.89361)"
@@ -442,7 +465,7 @@
        r="41.365746" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient3763"
+       xlink:href="#lgHeaderBar"
        id="linearGradient3319"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.02718367,0,0,0.92464296,199.00047,-159.00495)"
@@ -452,7 +475,7 @@
        y2="52.882328" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5328"
+       xlink:href="#lgLogoHilight"
        id="linearGradient4127"
        gradientUnits="userSpaceOnUse"
        x1="175.59911"
@@ -461,7 +484,7 @@
        y2="165.95216" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5328-2"
+       xlink:href="#lgLogoHL"
        id="linearGradient4129"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(-20.524289,-13.70005)"
@@ -471,7 +494,7 @@
        y2="165.57716" />
     <radialGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5391"
+       xlink:href="#lgShadow"
        id="radialGradient4131"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.97847726,-0.01794624,0.00274324,0.14956931,2.0734631,183.89361)"
@@ -480,6 +503,24 @@
        fx="123.56691"
        fy="213.62828"
        r="41.365746" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#lgDarkButton"
+       id="linearGradient4160"
+       x1="281.01221"
+       y1="-32.913322"
+       x2="281.01221"
+       y2="-65.441895"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#lgDarkButton"
+       id="linearGradient4196"
+       x1="650"
+       y1="61.25"
+       x2="650"
+       y2="37.488159"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -489,8 +530,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.6568542"
-     inkscape:cx="255.60224"
-     inkscape:cy="826.42592"
+     inkscape:cx="644.37208"
+     inkscape:cy="680.41596"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
      showgrid="false"
@@ -1041,6 +1082,47 @@
        x="199.99956"
        y="-113.83467"
        ry="0" />
+    <rect
+       style="fill:url(#linearGradient4160);stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;fill-opacity:1"
+       id="rect4152"
+       width="80"
+       height="32"
+       x="241"
+       y="-65"
+       rx="4"
+       ry="4" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="262.33661"
+       y="-44.288918"
+       id="text4162"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4166"
+         x="262.33661"
+         y="-44.288918">Button</tspan></text>
+    <rect
+       ry="4"
+       rx="4"
+       y="38"
+       x="621.25"
+       height="23"
+       width="60.75"
+       id="rect4168"
+       style="fill:url(#linearGradient4196);fill-opacity:1;stroke:#102030;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4170"
+       y="53.711082"
+       x="630.33661"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       xml:space="preserve"><tspan
+         y="53.711082"
+         x="630.33661"
+         id="tspan4172"
+         sodipodi:role="line"
+         style="fill-opacity:1;fill:#ffffff">Button</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
